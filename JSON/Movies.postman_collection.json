@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "10a2a3f7-5f5d-4071-b00a-7e0b9eac5090",
-		"name": "Bookshelf",
+		"name": "Movies",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "32790837"
 	},
@@ -20,8 +20,8 @@
 									"    pm.expect(pm.response.code).to.be.oneOf([200,201]);\r",
 									"});\r",
 									"\r",
-									"pm.test(\"Response time is less than 50ms\", ()=>{\r",
-									"    pm.expect(pm.response.responseTime).to.be.below(50);\r",
+									"pm.test(\"Response time is less than 200ms\", ()=>{\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
 									"});\r",
 									"\r",
 									"pm.test(\"Testing Directors has all the required Information\", ()=>{\r",
@@ -39,6 +39,13 @@
 									"});\r",
 									""
 								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [],
 								"type": "text/javascript"
 							}
 						}
@@ -72,8 +79,8 @@
 									"    pm.expect(pm.response.code).to.be.oneOf([200,201]);\r",
 									"});\r",
 									"\r",
-									"pm.test(\"Response time is less than 50ms\", ()=>{\r",
-									"    pm.expect(pm.response.responseTime).to.be.below(50);\r",
+									"pm.test(\"Response time is less than 200ms\", ()=>{\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
 									"});\r",
 									"\r",
 									"pm.test(\"Testing Directors has all the required Information\", ()=>{\r",
@@ -88,22 +95,31 @@
 								],
 								"type": "text/javascript"
 							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
 						}
 					],
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:5000/api/v1/directors/65d5ae282ea37099cde7f69f",
+							"raw": "localhost:5001/api/v1/directors/65dad91049a7848137b7d86f",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "5001",
 							"path": [
 								"api",
 								"v1",
 								"directors",
-								"65d5ae282ea37099cde7f69f"
+								"65dad91049a7848137b7d86f"
 							]
 						}
 					},
@@ -120,8 +136,8 @@
 									"    pm.expect(pm.response.code).to.be.oneOf([200,201]);\r",
 									"});\r",
 									"\r",
-									"pm.test(\"Response time is less than 50ms\", ()=>{\r",
-									"    pm.expect(pm.response.responseTime).to.be.below(100);\r",
+									"pm.test(\"Response time is less than 200ms\", ()=>{\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
 									"});\r",
 									"\r",
 									"pm.test(\"Testing Directors has all the required Information\", ()=>{\r",
@@ -132,16 +148,15 @@
 									"    pm.expect(responseJson.biography).to.be.not.null;\r",
 									"    pm.expect(responseJson.id).to.be.not.null;\r",
 									"});\r",
-									"\r",
-									"// pm.test(\"Testing Person Added Information\", ()=>{\r",
-									"//     const responseJson = pm.response.json();\r",
-									"//     pm.expect(responseJson.name).to.eql(\"Clint Eastwood\");\r",
-									"//     pm.expect(responseJson.age).to.eql(93);\r",
-									"//     pm.expect(responseJson.email).to.eql(\"ceastwood@gmail.com\");\r",
-									"//     pm.expect(responseJson.biography).to.eql(\"Clint Eastwood was born May 31, 1930 in San Francisco, to Clinton Eastwood Sr., a bond salesman and later manufacturing executive for Georgia-Pacific Corporation, and Ruth Wood (née Margret Ruth Runner), a housewife turned IBM clerk.\");\r",
-									"// });\r",
 									""
 								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [],
 								"type": "text/javascript"
 							}
 						}
@@ -185,8 +200,8 @@
 									"    pm.expect(pm.response.code).to.be.oneOf([200,201]);\r",
 									"});\r",
 									"\r",
-									"pm.test(\"Response time is less than 50ms\", ()=>{\r",
-									"    pm.expect(pm.response.responseTime).to.be.below(100);\r",
+									"pm.test(\"Response time is less than 200ms\", ()=>{\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
 									"});\r",
 									"\r",
 									"pm.test(\"Testing Directors has all the required Information\", ()=>{\r",
@@ -199,6 +214,13 @@
 									"});\r",
 									""
 								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [],
 								"type": "text/javascript"
 							}
 						}
@@ -242,8 +264,8 @@
 									"    pm.expect(pm.response.code).to.be.oneOf([200,201]);\r",
 									"});\r",
 									"\r",
-									"pm.test(\"Response time is less than 50ms\", ()=>{\r",
-									"    pm.expect(pm.response.responseTime).to.be.below(50);\r",
+									"pm.test(\"Response time is less than 200ms\", ()=>{\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
 									"});\r",
 									"\r",
 									"pm.test(\"Testing Directors has all the required Information\", ()=>{\r",
@@ -255,6 +277,13 @@
 									"});\r",
 									""
 								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [],
 								"type": "text/javascript"
 							}
 						}
@@ -285,11 +314,48 @@
 			"item": [
 				{
 					"name": "Get All Movies",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is either 200 or 201\", () => {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200,201]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", ()=>{\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Testing that the data is there\",()=>{\r",
+									"\tconst [directorObject] = pm.response.json().data;\r",
+									"    pm.expect(directorObject).to.have.property(\"_id\");\r",
+									"\tpm.expect(directorObject).to.have.property(\"title\").that.is.not.null;\r",
+									"\tpm.expect(directorObject).to.have.property(\"genre\").that.is.not.null;\r",
+									"\tpm.expect(directorObject).to.have.property(\"director\").that.is.not.null;\r",
+									"\tpm.expect(directorObject).to.have.property(\"year\").that.is.not.null;\r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:5000/api/v1/movies",
+							"raw": "localhost:5000/api/v1/movies/",
 							"host": [
 								"localhost"
 							],
@@ -297,7 +363,8 @@
 							"path": [
 								"api",
 								"v1",
-								"movies"
+								"movies",
+								""
 							]
 						}
 					},
@@ -305,11 +372,46 @@
 				},
 				{
 					"name": "Get Movie By Id",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is either 200 or 201\", () => {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200,201]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", ()=>{\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Testing that the data is there\",()=>{\r",
+									"\tconst directorObject = pm.response.json().data;\r",
+									"    pm.expect(directorObject).to.have.property(\"_id\");\r",
+									"\tpm.expect(directorObject).to.have.property(\"title\").that.is.not.null;\r",
+									"\tpm.expect(directorObject).to.have.property(\"genre\").that.is.not.null;\r",
+									"\tpm.expect(directorObject).to.have.property(\"director\").that.is.not.null;\r",
+									"\tpm.expect(directorObject).to.have.property(\"year\").that.is.not.null;\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:5000/api/v1/movies/",
+							"raw": "localhost:5000/api/v1/movies/65e30fe67b203894533147b0",
 							"host": [
 								"localhost"
 							],
@@ -318,7 +420,7 @@
 								"api",
 								"v1",
 								"movies",
-								""
+								"65e30fe67b203894533147b0"
 							]
 						}
 					},
@@ -326,68 +428,52 @@
 				},
 				{
 					"name": "Create Movie",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is either 200 or 201\", () => {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200,201]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", ()=>{\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Testing that the data is there\",()=>{\r",
+									"\tconst directorObject = pm.response.json().data;\r",
+									"\tpm.expect(directorObject).to.have.property(\"title\").that.is.not.null;\r",
+									"\tpm.expect(directorObject).to.have.property(\"genre\").that.is.not.null;\r",
+									"\tpm.expect(directorObject).to.have.property(\"director\").that.is.not.null;\r",
+									"\tpm.expect(directorObject).to.have.property(\"year\").that.is.not.null;\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"request": {
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"movie\":{\r\n        \"title\": \"The Polar Express\",\r\n        \"genre\": \"Animation\",\r\n        \"director\": \"Robert Zemeckis\",\r\n        \"year\": \"2004\"\r\n    }\r\n}",
+							"raw": "{\r\n    \"movie\":{\r\n        \"title\": \"Dumbo\",\r\n        \"genre\": \"Adventure\",\r\n        \"director\": \"65dace9e49a7848137b7d83b\",\r\n        \"year\": \"2019\"\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": {
-							"raw": "localhost:5000/api/v1/movies",
-							"host": [
-								"localhost"
-							],
-							"port": "5000",
-							"path": [
-								"api",
-								"v1",
-								"movies"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "Update Movie",
-					"request": {
-						"method": "PUT",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"genre\":\"Animation\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "localhost:5000/api/v1/movies/65dae1a8a2d2843cfdc9d9bc",
-							"host": [
-								"localhost"
-							],
-							"port": "5000",
-							"path": [
-								"api",
-								"v1",
-								"movies",
-								"65dae1a8a2d2843cfdc9d9bc"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "Delete Movie",
-					"request": {
-						"method": "DELETE",
-						"header": [],
 						"url": {
 							"raw": "localhost:5000/api/v1/movies/",
 							"host": [
@@ -399,6 +485,127 @@
 								"v1",
 								"movies",
 								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Movie",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is either 200 or 201\", () => {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200,201]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", ()=>{\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Testing that the data is there\",()=>{\r",
+									"\tconst directorObject = pm.response.json().data;\r",
+									"    pm.expect(directorObject).to.have.property(\"_id\");\r",
+									"\tpm.expect(directorObject).to.have.property(\"title\").that.is.not.null;\r",
+									"\tpm.expect(directorObject).to.have.property(\"genre\").that.is.not.null;\r",
+									"\tpm.expect(directorObject).to.have.property(\"director\").that.is.not.null;\r",
+									"\tpm.expect(directorObject).to.have.property(\"year\").that.is.not.null;\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"genre\":\"Family\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/v1/movies/65e3d8aa28e5e9ad74dce876",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"movies",
+								"65e3d8aa28e5e9ad74dce876"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Movie",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is either 200 or 201\", () => {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200,201]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", ()=>{\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Testing that the data is there\",()=>{\r",
+									"\tconst directorObject = pm.response.json().data;\r",
+									"    pm.expect(directorObject).to.have.property(\"_id\");\r",
+									"\tpm.expect(directorObject).to.have.property(\"title\").that.is.not.null;\r",
+									"\tpm.expect(directorObject).to.have.property(\"genre\").that.is.not.null;\r",
+									"\tpm.expect(directorObject).to.have.property(\"director\").that.is.not.null;\r",
+									"\tpm.expect(directorObject).to.have.property(\"year\").that.is.not.null;\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/v1/movies/65e30fe67b203894533147b0",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"movies",
+								"65e30fe67b203894533147b0"
 							]
 						}
 					},
@@ -513,7 +720,12 @@
 									"    pm.expect(directorObject).to.have.property(\"age\");\r",
 									"    pm.expect(directorObject).to.have.property(\"gender\");\r",
 									"});\r",
-									""
+									"\r",
+									"pm.test(\"Testing Pagination\", function(){\r",
+									"    const [directorObject] = pm.response.json().data;\r",
+									"    console.log(directorObject);\r",
+									"    pm.expect([directorObject]).to.have.lengthOf(5);\r",
+									"});"
 								],
 								"type": "text/javascript"
 							}
@@ -523,7 +735,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:5000/api/v1/directors?select= name,gender,age&page=3",
+							"raw": "localhost:5000/api/v1/directors?select= name,gender,age&page=3&limit=5",
 							"host": [
 								"localhost"
 							],
@@ -541,6 +753,10 @@
 								{
 									"key": "page",
 									"value": "3"
+								},
+								{
+									"key": "limit",
+									"value": "5"
 								}
 							]
 						}
@@ -575,7 +791,7 @@
 									"pm.test(\"Testing Pagination\", function(){\r",
 									"    const [directorObject] = pm.response.json().data;\r",
 									"    console.log(directorObject);\r",
-									"    pm.expect([directorObject]).to.have.lengthOf(1);\r",
+									"    pm.expect([directorObject]).to.have.lengthOf(5);\r",
 									"});"
 								],
 								"type": "text/javascript"
@@ -586,7 +802,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:5000/api/v1/directors?sort=name&page=2&limit=1",
+							"raw": "localhost:5000/api/v1/directors?sort=name&page=2&limit=5",
 							"host": [
 								"localhost"
 							],
@@ -607,7 +823,56 @@
 								},
 								{
 									"key": "limit",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "pagination",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Testing Pagination\", function(){\r",
+									"    const [directorObject] = pm.response.json().data;\r",
+									"    console.log(directorObject);\r",
+									"    pm.expect([directorObject]).to.have.lengthOf(4);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/v1/directors?select=name&page=1&limit=5",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"directors"
+							],
+							"query": [
+								{
+									"key": "select",
+									"value": "name"
+								},
+								{
+									"key": "page",
 									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "5"
 								}
 							]
 						}
