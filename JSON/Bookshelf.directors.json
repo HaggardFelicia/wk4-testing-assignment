@@ -1,0 +1,408 @@
+[{
+  "_id": {
+    "$oid": "65d5ae282ea37099cde7f69f"
+  },
+  "name": "Melissa Joan Hart",
+  "age": 47,
+  "email": "mjhart@gmail.com",
+  "biography": "Born April 18, 1976 in Long Island, New York. Melissa grew up in Sayville, New York. Her acting career started at the age of four, when she did a commercial for a bathtub toy called Splashy. Melissa performed in two plays as the youngest member of New York's Circle Repertory Lab Company. Melissa cites Shirley Temple and Audrey Hepburn as early acting inspirations and still collects memorabilia of the former. She attended New York University.",
+  "createdAt": {
+    "$date": "2024-02-21T08:02:48.310Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:52:07.661Z"
+  },
+  "__v": 0,
+  "gender": "Female"
+},
+{
+  "_id": {
+    "$oid": "65d5aeba2ea37099cde7f6a3"
+  },
+  "name": "Steven Spielberg",
+  "age": 77,
+  "email": "sspielberg@gmail.com",
+  "biography": "One of the most influential personalities in the history of cinema, Steven Spielberg is Hollywood's best known director and one of the wealthiest filmmakers in the world. He has an extraordinary number of commercially successful and critically acclaimed credits to his name, either as a director, producer or writer since launching the summer blockbuster with Jaws (1975), and he has done more to define popular film-making since the mid-1970s than anyone else.",
+  "createdAt": {
+    "$date": "2024-02-21T08:05:14.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:47:39.124Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65d6e4d8210c22deb190391b"
+  },
+  "name": "Domee Shi",
+  "age": 34,
+  "email": "dshi@gmail.com",
+  "biography": "Domee Shi was born on August 19, 1989 in Chongqing, China. She is a writer, storyboard artist, and director, known for Turning Red (2022), Inside Out (2015) and Bao (2018).",
+  "createdAt": {
+    "$date": "2024-02-22T06:08:24.854Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:52:18.141Z"
+  },
+  "__v": 0,
+  "gender": "Female"
+},
+{
+  "_id": {
+    "$oid": "65d6f9759574d411a7997c00"
+  },
+  "name": "Clint Eastwood",
+  "age": 93,
+  "email": "ceastwood@gmail.com",
+  "biography": "During the mid-'50s he landed uncredited bit parts in such B-films as Revenge of the Creature (1955) and Tarantula (1955) while digging swimming pools and driving a garbage truck to supplement his income. In 1958, he landed his first consequential acting role in the long-running TV show Rawhide (1959) with Eric Fleming. Though only a secondary player the first seven seasons, Clint was promoted to series star when Fleming departed--both literally and figuratively--in its final year, along the way becoming a recognizable face to television viewers around the country.",
+  "createdAt": {
+    "$date": "2024-02-22T07:36:21.025Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:47:49.064Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dace9e49a7848137b7d83b"
+  },
+  "name": "Tim Burton",
+  "age": 65,
+  "email": "cburton@gmail.com",
+  "biography": "Timothy Walter Burton was born in Burbank, California, to Jean Rae (Erickson), who owned a cat-themed gift shop, and William Reed Burton, who worked for the Burbank Park and Recreation Department. He spent most of his childhood as a recluse, drawing cartoons, and watching old movies (he was especially fond of films with Vincent Price). When he was in the ninth grade, his artistic talent was recognized by a local garbage company, when he won a prize for an anti-litter poster he designed.",
+  "createdAt": {
+    "$date": "2024-02-25T05:22:38.038Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:48:22.120Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dacf0a49a7848137b7d83e"
+  },
+  "name": "Walt Disney",
+  "age": 65,
+  "email": "wdisney@gmail.com",
+  "biography": "Walter Elias Disney was born on December 5, 1901 in Chicago, Illinois, the son of Flora Disney (née Call) and Elias Disney, a Canadian-born farmer and businessperson. He had Irish, German, and English ancestry. Walt moved with his parents to Kansas City at age seven, where he spent the majority of his childhood. At age 16, during World War I, he faked his age to join the American Red Cross. He soon returned home, where he won a scholarship to the Kansas City Art Institute.",
+  "createdAt": {
+    "$date": "2024-02-25T05:24:26.752Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:48:29.661Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dacfaf49a7848137b7d841"
+  },
+  "name": "Peter Jackson",
+  "age": 62,
+  "email": "pjackson@gmail.com",
+  "biography": "Sir Peter Jackson made history with The Lord of the Rings trilogy, becoming the first person to direct three major feature films simultaneously. The Fellowship of the Ring, The Two Towers and The Return of the King were nominated for and collected a slew of awards from around the globe, with The Return of the King receiving his most impressive collection of awards.",
+  "createdAt": {
+    "$date": "2024-02-25T05:27:11.038Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:48:37.064Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dacffd49a7848137b7d843"
+  },
+  "name": "Pete Docter",
+  "age": 55,
+  "email": "pdocter@gmail.com",
+  "biography": "Pete Docter is the Oscar®-winning director of Monsters, Inc., Up, and Inside Out, and Chief Creative Officer at Pixar Animation Studios. He is currently directing Pixar's feature film Soul with producer Dana Murray, which is set to release June 19, 2020.",
+  "createdAt": {
+    "$date": "2024-02-25T05:28:29.035Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:48:46.291Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dad04749a7848137b7d845"
+  },
+  "name": "Don Hall",
+  "age": 54,
+  "email": "dhall@gmail.com",
+  "biography": "Don Hall was born on March 8, 1969 in Glenwood, Iowa, USA. He is a writer and producer, known for Meet the Robinsons (2007), Big Hero 6 (2014) and Raya and the Last Dragon (2021).",
+  "createdAt": {
+    "$date": "2024-02-25T05:29:43.886Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:48:54.662Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dad0ad49a7848137b7d847"
+  },
+  "name": "Ron Clements",
+  "age": 70,
+  "email": "rclements@gmail.com",
+  "biography": "Ron Clements is an American animated film director who collaborates with John Musker. They directed various Disney animated films including The Great Mouse Detective, The Little Mermaid, Aladdin, Hercules, Treasure Planet, The Princess and the Frog and Moana. The Little Mermaid and Aladdin are seminal films he co-directed because they brought back life to Disney animation in the late 1980s and early 1990s.",
+  "createdAt": {
+    "$date": "2024-02-25T05:31:25.496Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:49:01.171Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dad12849a7848137b7d849"
+  },
+  "name": "John Musker",
+  "age": 70,
+  "email": "jmusker@gmail.com",
+  "biography": "John Musker is an American animated film director who collaborates with Ron Clements. They directed various Disney animated films including The Great Mouse Detective, The Little Mermaid, Aladdin, Hercules, Treasure Planet, The Princess and the Frog and Moana. The Little Mermaid and Aladdin are seminal films he co-directed because they brought back life to Disney animation in the late 1980s and early 1990s.",
+  "createdAt": {
+    "$date": "2024-02-25T05:33:28.411Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:49:07.843Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dad18649a7848137b7d84b"
+  },
+  "name": "Martin Scorsese",
+  "age": 81,
+  "email": "mscorsese@gmail.com",
+  "biography": "Martin Charles Scorsese was born on November 17, 1942 in Queens, New York City, to Catherine Scorsese (née Cappa) and Charles Scorsese, who both worked in Manhattan's garment district, and whose families both came from Palermo, Sicily. He was raised in the neighborhood of Little Italy, which later provided the inspiration for several of his films. Scorsese earned a B.S. degree in film communications in 1964, followed by an M.A. in the same field in 1966 at New York University's School of Film.",
+  "createdAt": {
+    "$date": "2024-02-25T05:35:02.559Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:50:40.773Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dad1c349a7848137b7d84d"
+  },
+  "name": "Christopher Nolan",
+  "age": 53,
+  "email": "cnolan@gmail.com",
+  "biography": "Best known for his cerebral, often nonlinear, storytelling, acclaimed writer-director Christopher Nolan was born on July 30, 1970, in London, England. Over the course of 15 years of filmmaking, Nolan has gone from low-budget independent films to working on some of the biggest blockbusters ever made.",
+  "createdAt": {
+    "$date": "2024-02-25T05:36:03.883Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:49:20.111Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dad21d49a7848137b7d84f"
+  },
+  "name": "David Fincher",
+  "age": 61,
+  "email": "dfincher@gmail.com",
+  "biography": "David Fincher was born in 1962 in Denver, Colorado, and was raised in Marin County, California. When he was 18 years old he went to work for John Korty at Korty Films in Mill Valley. He subsequently worked at ILM (Industrial Light and Magic) from 1981-1983. Fincher left ILM to direct TV commercials and music videos after signing with N. Lee Lacy in Hollywood.",
+  "createdAt": {
+    "$date": "2024-02-25T05:37:33.600Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:49:26.828Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dad25b49a7848137b7d851"
+  },
+  "name": "Andrew Stanton",
+  "age": 58,
+  "email": "astanton@gmail.com",
+  "biography": "Andrew Stanton has been a major creative force at Pixar Animation Studios since 1990, when he became the second animator and ninth employee to join the company's elite group of computer animation pioneers. As Vice President, Creative he currently oversees all shorts and feature projects at the studio.",
+  "createdAt": {
+    "$date": "2024-02-25T05:38:35.432Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:49:33.673Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dad2ea49a7848137b7d855"
+  },
+  "name": "Michael Haneke",
+  "age": 81,
+  "email": "mhaneke@gmail.com",
+  "biography": "A true master of his craft, Michael Haneke is one of the greatest film artists working today with films that reflect real portions of life in realistic, disturbing and unforgettable ways. One of the most genuine filmmakers of the world cinema, Haneke wrote and directed films in several languages: French, German and English, working with a great variety of actors, such as Juliette Binoche, Isabelle Huppert, Jean-Louis Trintignant, and the list goes on.",
+  "createdAt": {
+    "$date": "2024-02-25T05:40:58.745Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:49:39.945Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dad3e749a7848137b7d85a"
+  },
+  "name": "Alfonso Cuarón",
+  "age": 62,
+  "email": "ccuaron@gmail.com",
+  "biography": "Alfonso Cuarón Orozco was born on November 28th 1961 in Mexico City, Mexico. From an early age, he yearned to be either a film director or an astronaut. However, he did not want to enter the army, so he settled for directing. He didn't receive his first camera until his twelfth birthday, and then immediately started to film everything he saw, showing it afterwards to everyone.",
+  "createdAt": {
+    "$date": "2024-02-25T05:45:11.777Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:49:44.240Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dad41a49a7848137b7d85c"
+  },
+  "name": "Nancy Meyers",
+  "age": 74,
+  "email": "nmeyers@gmail.com",
+  "biography": "Nancy Jane Meyers is an American filmmaker. She has written, produced, and directed many critically and commercially successful films including Private Benjamin (1980), Irreconcilable Differences (1984), Baby Boom (1987), Father of the Bride (1991), Father of the Bride Part II (1995), The Parent Trap (1998), What Women Want (2000), Something's Gotta Give (2003), The Holiday (2006), It's Complicated (2009), and The Intern (2015).",
+  "createdAt": {
+    "$date": "2024-02-25T05:46:02.725Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:52:34.993Z"
+  },
+  "__v": 0,
+  "gender": "Female"
+},
+{
+  "_id": {
+    "$oid": "65dad49849a7848137b7d85e"
+  },
+  "name": "Tyler Perry",
+  "age": 54,
+  "email": "tperry@gmail.com",
+  "biography": "Perry was born and raised in New Orleans, to Willie Maxine (Campbell) and Emmitt Perry, Sr. His mother was a church-goer and took Perry along with her once a week. His father was a carpenter and they had a very strained and abusive relationship, which led Perry to suffer from depression as a teenager.",
+  "createdAt": {
+    "$date": "2024-02-25T05:48:08.502Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:49:52.393Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dad4cc49a7848137b7d860"
+  },
+  "name": "Stanley Kubrick",
+  "age": 70,
+  "email": "skubrick@gmail.com",
+  "biography": "Stanley Kubrick was born in Manhattan, New York City, to Sadie Gertrude (Perveler) and Jacob Leonard Kubrick, a physician. His family were Jewish immigrants (from Austria, Romania, and Russia). Stanley was considered intelligent, despite poor grades at school. Hoping that a change of scenery would produce better academic performance, Kubrick's father sent him in 1940 to Pasadena, California, to stay with his uncle, Martin Perveler.",
+  "createdAt": {
+    "$date": "2024-02-25T05:49:00.734Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:51:12.991Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dad61549a7848137b7d865"
+  },
+  "name": "Lee Unkrich",
+  "age": 56,
+  "email": "lunkrich@gmail.com",
+  "biography": "Lee Unkrich is an Academy Award-winning director at Pixar Animation Studios. He most recently directed Pixar's critically-acclaimed Coco, which received the Academy Award for Best Animated Feature and Best Song. As the director of Pixar's Toy Story 3, Lee was also awarded an Academy Award for Best Animated Feature. Lee joined Pixar in 1994, and has played a variety of key creative roles on nearly every animated feature film made at the studio.",
+  "createdAt": {
+    "$date": "2024-02-25T05:54:29.071Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:51:21.063Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dad85d49a7848137b7d868"
+  },
+  "name": "Francis Ford Coppola",
+  "age": 84,
+  "email": "fcoppola@gmail.com",
+  "biography": "Francis Ford Coppola was born in 1939 in Detroit, Michigan, but grew up in a New York suburb in a creative, supportive Italian-American family. His father, Carmine Coppola, was a composer and musician. His mother, Italia Coppola (née Pennino), had been an actress. Francis Ford Coppola graduated with a degree in drama from Hofstra University, and did graduate work at UCLA in filmmaking.",
+  "createdAt": {
+    "$date": "2024-02-25T06:04:13.826Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:51:29.011Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dad8d849a7848137b7d86d"
+  },
+  "name": "Frank Darabont",
+  "age": 65,
+  "email": "fdarabont@gmail.com",
+  "biography": "Three-time Oscar nominee Frank Darabont was born in a refugee camp in 1959 in Montbeliard, France, the son of Hungarian parents who had fled Budapest during the failed 1956 Hungarian revolution. Brought to America as an infant. His first job in movies was as a production assistant on the 1981 low-budget film, Hell Night (1981), starring Linda Blair. His first produced writing credit (shared) was on the 1987 film, A Nightmare on Elm Street 3: Dream Warriors (1987).",
+  "createdAt": {
+    "$date": "2024-02-25T06:06:16.130Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:51:34.377Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "65dad91049a7848137b7d86f"
+  },
+  "name": "Robert Zemeckis",
+  "age": 71,
+  "email": "rzemeckis@gmail.com",
+  "biography": "A whiz-kid with special effects, Robert is from the Spielberg camp of film-making (Steven Spielberg produced many of his films). Usually working with writing partner Bob Gale, Robert's earlier films show he has a talent for zany comedy (Romancing the Stone (1984), 1941 (1979)) and special effect vehicles (Who Framed Roger Rabbit (1988) and Back to the Future (1985)).",
+  "createdAt": {
+    "$date": "2024-02-25T06:07:12.986Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-25T11:51:41.611Z"
+  },
+  "__v": 0,
+  "gender": "Male"
+}]
