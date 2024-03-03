@@ -106,40 +106,9 @@ const createMovie = async (req, res) => {
     .catch(err=>{
         //console.error(error);
         res.status(500).json({
-            error: 'Unable to save movie'
+            err: 'Unable to save movie'
         })
     })
-    //try code block to create a new movie with a success message
-    /* try{
-        const {movie} = req.body;
-        const directorData = await Director.findById(movie.director);
-        //attaching the director object to the movie
-        movie.director = directorData;
-        //ceates a new movie model
-        const newMovie = new Movie(movie);
-        //push the movie id to the directer.books array
-        directorData.movie.push(newMovie._id);
-        //saves the movie and director data
-        const queries = [newMovie.save(), directorData.save()];
-        await Promise.all(queries);
-        console.log('data >>>', newMovie);
-        res.status(200).json({ 
-            data: newMovie,
-            message: `${req.method} - request to Movie endpoint`, 
-            success: true
-        });
-    }
-    //catch code block to handle errors
-    catch(error){
-        if (error.name === 'ValidationError') {
-            console.error('Error Validating!', error);
-            res.status(422).json(error);
-        }
-        else{
-            console.error(error);
-            res.status(500).json(error);
-        }
-    } */
 };
 
 const updateMovie = async (req, res) => {

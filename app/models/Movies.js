@@ -19,11 +19,13 @@ const moviesSchema = new mongoose.Schema(
                 "Crime",
                 "Comedy",
                 "Drama",
+                "Fantasy",
+                "Family",
                 "Horror",
                 "Mystery",
                 "Thriller",
                 "Western",
-                "Science Fiction",
+                "Science Fiction"
             ],
         },
         director:{
